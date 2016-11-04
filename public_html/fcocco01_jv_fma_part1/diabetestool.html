@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="diabetestool.css" type="text/css"/>
+        <title>The Diabetes Risk Assessment Tool</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if lt IE 9]> 
+            <script src="js/html5shiv.js"></script> 
+        <![endif]--> 
+        <script type="text/javascript" src="diabetestool.js"></script>
+    </head>
+    <body>
+        <div id = 'wrapper'>
+            <div id = "form">
+                <form id="healthform">
+                    <fieldset>
+                        <legend>Diabetes form:</legend>
+                        <div class="fields" id= "age">
+                            <label>How old are you?</label>
+                            <label for="option1">1-25 </label>
+                            <input type="radio" name="Age" id="option1" value="0">
+                            <label for="option2">26-40 </label>
+                            <input type="radio" name="Age" id="option2" value="5">
+                            <label for="option3">41-60</label>
+                            <input type="radio" name="Age" id="option3" value="8">
+                            <label for="option4">60+</label>
+                            <input type="radio" name="Age" id="option4" value="10">
+                        </div>
+                        <div class="fields" id = "bmi">
+                            <label>What is your BMI?</label>
+                            <label for="bmir1">0-25 </label>
+                            <input type="radio" name="BMI" id="bmir1" value="0">
+                            <label for="bmir2">26-30 </label>
+                            <input type="radio" name="BMI" id="bmir2" value="0">
+                            <label for="bmir3">31-35</label>
+                            <input type="radio" name="BMI" id="bmir3" value="9">
+                            <label for="bmir4">35+</label>
+                            <input type="radio" name="BMI" id="bmir4" value="10">
+                        </div>
+                        <div class="fields" id ="family">
+                            <label>Does anybody in your <br>family have diabetes</label>
+                            <label for="haver1">No    </label>
+                            <input type="radio" name="Family's history" id="haver1" value="0">
+                            <label for="haver2">Grandparent</label>
+                            <input type="radio" name="Family's history" id="haver2" value="7">
+                            <label for="haver3">Sibling</label>
+                            <input type="radio" name="Family's history" id="haver3" value="15">
+                            <label for="haver4">Parent</label>
+                            <input type="radio" name="Family's history" id="haver4" value="15">
+                        </div>
+                        <div class="fields" id="sugar">
+                            <label>How would you <br>describe your diet?</label>
+                            <label for="dietr1">Low sugar</label>
+                            <input type="radio" name="Diet" id="dietr1" value="0">
+                            <label for="dietr2">Normal sugar</label>
+                            <input type="radio" name="Diet" id="dietr2" value="0">
+                            <label for="dietr3">Quite high sugar</label>
+                            <input type="radio" name="Diet" id="dietr3" value="7">
+                            <label for="dietr4">High sugar</label>
+                            <input type="radio" name="Diet" id="dietr4" value="10">
+                        </div>
+                        <div>
+                            <input type="submit" value="Calculate">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="message" class = "hide">
+
+                <h2>Your Result:</h2>
+                <p id = "high" class = "result hide">Your results show that you currently have a HIGH
+                    risk of developing diabetes<span id="factors"></span>. We advise that you contact
+                    the Health Authority to discuss your risk factors as soon
+                    as you can. Please fill in our <a href="contactform.html">
+                        contact form</a> and a member of the Health Authority
+                    Diabetes Team will be in contact with you.</p>
+                <p id = "medium" class = "result hide">Your results show that you currently have a
+                    medium risk of developing diabetes. For more information
+                    on your risk factors, and what to do about them, please
+                    visit our diabetes advice website at <a href = "#">http://www.zha.org.zd</a>.</p>
+                <p id = "low" class = "result hide">Your results show that you currently have a low
+                    risk of developing diabetes. However, it is important that
+                    you maintain a healthy lifestyle in terms of diet and exercise.</p>
+
+            </div>
+        </div>
+    </body>
+</html>

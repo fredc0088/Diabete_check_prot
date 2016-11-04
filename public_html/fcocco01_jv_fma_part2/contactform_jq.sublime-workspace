@@ -1,0 +1,350 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fa",
+				"false"
+			],
+			[
+				"vali",
+				"validForm"
+			],
+			[
+				"getE",
+				"getElementsByName(name)	Element"
+			],
+			[
+				"single",
+				"singleValidation"
+			],
+			[
+				"in",
+				"input	(contactform.html)"
+			],
+			[
+				"gete",
+				"getElementsByTagName(name)	Element"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"pare",
+				"parentNode"
+			],
+			[
+				"this",
+				"this"
+			],
+			[
+				"th",
+				"this	$(this)"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"dis",
+				"displayError"
+			],
+			[
+				"fir",
+				"firstname	(contactform.html)"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"getElementsBy",
+				"getElementsByName(name)	Element"
+			],
+			[
+				"getEl",
+				"getElementsByTagName(name)	Element"
+			],
+			[
+				"unde",
+				"undefined〔keyword〕"
+			],
+			[
+				"type",
+				"typeof(Object)	Object"
+			],
+			[
+				"on",
+				"onfocus	(contactform.js)"
+			],
+			[
+				"re",
+				"remove	.remove()"
+			],
+			[
+				"class",
+				"classList	(diabetestool.js)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "npm",
+		"selected_items":
+		[
+			[
+				"npm",
+				"npm: Link Package Here"
+			],
+			[
+				"np",
+				"npm: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"bower",
+				"Bower: Install"
+			],
+			[
+				"paka",
+				"Package Control: Install Package"
+			],
+			[
+				"ter",
+				"Terminal: Open"
+			],
+			[
+				"console",
+				"consolewrap"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"set ",
+				"Set Syntax: HTML"
+			],
+			[
+				"camel",
+				"Set Syntax: OCamllex"
+			],
+			[
+				"prw",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"npm instal bower -g",
+			"npm install bower -g",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/npm/npm.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/npm.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-settings",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/fma_javascript_2016(shared ver.)/public_html/contactform_jq.js",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/fma_javascript_2016(shared ver.)/public_html/contactform_jq.html",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/hmoham24_jv_fma_part1/diabetestool.css",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/fma_javascript_2016(shared ver.)/public_html/contactform_jq.css",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/fma_javascript_2016(shared ver.)/public_html/diabetestool.css",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/fma_javascript_2016(shared ver.)/public_html/diabetestool.html",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/fma_javascript_2016(shared ver.)/public_html/diabetestool.js",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/fma_javascript_2016(shared ver.)/public_html/contactform.js",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/fma_javascript_2016(shared ver.)/public_html/contactform.html",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/tma & fma/hmoham24_jv_fma_part1/contactform.js",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/form example.html",
+		"/C/Users/Administrator/Google Drive/Education/Bsc Computing/Javascript/form example",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Theme - Soda/Soda Dark 3.sublime-theme",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Administrator/Google Drive/config/sublime packages.txt",
+		"/C/xampp/htdocs/w1fma/include/controller/web_service.class.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"age",
+			"bmi",
+			"displayError",
+			"callback",
+			"[];\n",
+			"<!",
+			"el",
+			"El",
+			"el",
+			"obj",
+			"formNode",
+			"formEnhanchment",
+			"{\n",
+			"obje"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "contactform_jq.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"fma_javascript_2016(shared ver.)\\public_html\\contactform.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

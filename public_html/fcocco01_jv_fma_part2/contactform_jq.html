@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="contactform_jq.css" type="text/css"/>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="lib/jquery-3.0.0.min.js"></script>
+        <script src="node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+        <!--[if lt IE 9]> 
+            <script src="js/html5shiv.js"></script> 
+        <![endif]--> 
+        <script type="text/javascript" src="contactform_jq.js"></script>
+    </head>
+    <body>
+        <div id = 'wrapper'>
+            <div id = "form">
+                <form id="contactform">
+                    <fieldset>
+                        <legend>Contact form:</legend>
+                        <div>
+                            <label>First name:</label>
+                            <input type="text" name="firstname" value="">
+                        </div>
+                        <div>
+                            <label>Last name:</label>
+                            <input type="text" name="lastname" value="">
+                        </div>
+                        <div>
+                            <label>Title:</label>
+                            <select name="title">
+                                <option value="">Choose</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Ms">Ms</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Miss">Miss.</option>
+                                <option value="Master">Master</option>
+                            </select>
+                        </div>
+                        <div>
+                            <div id="tipTrigger">
+                                <span class="hide" id ="tooltip">If you do not know your ZHA number, please contact your GP</span>
+                            </div>
+                            <label>Health Authority Number:</label>
+                            <input type="text" name="HNAcontact" value="">
+                        </div>
+                        <div>
+                            <label>Email:</label>
+                            <input type="text" name="email" value="">
+                        </div>
+                        <div>
+                            <label>Telephone number:</label>
+                            <input type="text" name="number" value="">
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>

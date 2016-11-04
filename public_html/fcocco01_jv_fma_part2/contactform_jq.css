@@ -1,0 +1,123 @@
+/* Author : Federico Cocco
+* ITS username: fcocco01
+* Module: Javascript
+* July 2016
+* thanks: W3School, Mozilla Development
+*/
+
+/*********wrapping together margin, padding, etc... in the calculations*****/
+* {
+    box-sizing: border-box;
+}
+
+/*****screen resizing*****/
+@media screen and (max-width: 1440px) {
+    body {
+        zoom: 0.85;
+    }
+}
+@media screen and (max-width: 1090px) {
+    body {
+        zoom: 0.7;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        zoom: 0.5;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        zoom: 0.3;
+    }
+}
+@media screen and (max-width: 400px) {
+    body {
+        zoom: 0.25;
+    }
+}
+
+/*********classes for specific functions*****/
+.hide{
+    display: none;
+}
+
+/**********main**********/
+body {
+    font-family: Verdana, Arial, sans-serif;
+    color:#273960;
+}
+
+#wrapper{
+    width: 65%;
+    padding: 2em;
+    background: white;
+    position: absolute;
+    margin: -200px 0 0 -300px;
+    top: 40%;
+    left: 35%;
+}
+/*********contact form***********/
+#contactform, #healthform, #message{
+    width: 80%;
+    padding: 1em;
+    border: 1px solid #000;
+    background: #f5f5f5;
+    background: linear-gradient(white,whitesmoke);
+    margin-bottom: 1em;
+    margin: 1px;
+}
+
+fieldset{
+    clear: both;
+}
+
+#contactform div label:not(.error){
+    display: block;
+    margin: 0.5em
+}
+
+#contactform input[type="text"]{
+    width: 250px;
+}
+
+
+/***********hint and help********/
+.placeholder{
+    color: #A8A8A8;
+    font-style: italic;
+    content: attr(placeholder) !important;	
+}
+
+#tipTrigger {
+    position: relative;	
+    background:url(questionmark.png) top left no-repeat;
+    padding: 1em 1em 0.5em 1em;
+    width: 11px;
+    float:left;
+}
+
+#tipTrigger #tooltip {
+    position:absolute;
+    clear: none;
+    width:200px;
+    border:1px solid #ffffff;
+    color: #ffffff;
+    padding: 20px 25px;
+    background:url(tooltipbg.gif) top left no-repeat;
+    font:0.75em Arial, Helvetica, sans-serif;
+    z-index:1;
+    top: -15px;
+    left: 105%;
+}
+
+/*****error messages******/
+label.error {
+    color: #ff0000;
+    font-size:1em;
+    font-style:italic;
+    margin-left: 1em;
+}
+
+

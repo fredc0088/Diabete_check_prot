@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="diabetestool.css" type="text/css"/>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if lt IE 9]> 
+            <script src="js/html5shiv.js"></script> 
+        <![endif]--> 
+        <script type="text/javascript" src="contactform.js"></script>
+    </head>
+    <body>
+        <div id = 'wrapper'>
+            <div id = "form">
+                <form id="contactform">
+                    <fieldset>
+                        <legend>Contact form:</legend>
+                        <div>
+                            <label>First name:</label>
+                            <input type="text" name="firstname" value="">
+                            <span class = "error hide">*This field is required</span>
+                            <span class = "error hide" id="firstnameEr">*Only '-' and at least 2 characters are allowed</span>
+                        </div>
+                        <div>
+                            <label>Last name:</label>
+                            <input type="text" name="lastname" value="">
+                            <span class = "error hide">*This field is required</span>
+                            <span class = "error hide" id="lastnameEr">*Only '-' and at least 2 characters are allowed</span>
+                        </div>
+                        <div>
+                            <label>Title:</label>
+                            <select name="title">
+                                <option value="">Choose</option>
+                                <option value="Mr">Mr</option>
+                                <option value="Ms">Ms</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Miss">Miss</option>
+                                <option value="Master">Master</option>
+                            </select>
+                            <span class = "error hide">*You must select a title</span>
+                        </div>
+                        <div>
+                            <div id="tipTrigger">
+                                <span class="hide" id ="tooltip">If you do not know your ZHA number, please contact your GP</span>
+                            </div>
+                            <label>Health Authority Number:</label>
+                            <input type="text" name="HNAcontact" value="">
+                            <span class = "error hide">*This field is required</span>
+                            <span class = "error hide" id = "zhanEr">*This ZHAN number may be incorrect or not valid</span>
+                        </div>
+                        <div>
+                            <label>Email:</label>
+                            <input type="text" name="email" value="">
+                            <span class = "error hide">*A valid email is required</span>
+                            <span class = "error hide" id="mailEr">*This email address is not valid</span>
+                        </div>
+                        <div>
+                            <label>Telephone number:</label>
+                            <input type="text" name="number" value="">
+                            <span class = "error hide" id="telEr">*This number is not valid</span>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
